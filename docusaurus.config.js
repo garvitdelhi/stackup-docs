@@ -52,7 +52,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Stackup",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -62,24 +62,23 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Overview",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/stackupfinance/stackup",
             label: "GitHub",
             position: "right",
           },
         ],
       },
       footer: {
-        style: "dark",
+        style: "light",
         links: [
           {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Introduction",
                 to: "/docs/intro",
               },
             ],
@@ -88,16 +87,16 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Twitter",
+                href: "https://twitter.com/stackup_fi",
               },
               {
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://discord.gg/FpXmvKrNed",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Email",
+                href: "mailto:founders@stackup.sh",
               },
             ],
           },
@@ -106,16 +105,16 @@ const config = {
             items: [
               {
                 label: "Blog",
-                to: "/blog",
+                to: "https://medium.com/stackup-wallet",
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/stackupfinance/stackup",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Stackup, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
